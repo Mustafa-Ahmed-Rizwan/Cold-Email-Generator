@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Cold Email Generator is a Streamlit-based web application designed to assist individuals  in crafting personalized cold emails for job applications. By inputting a job posting URL, the tool extracts job details, matches relevant skills from a portfolio, and generates a tailored email to pitch to potential employers.
+The Cold Email Generator is a Streamlit-based web application designed to assist individuals in crafting personalized cold emails for job applications. By inputting a job posting URL, the tool extracts job details, matches relevant skills from a portfolio, and generates a tailored email to pitch to potential employers.
 
 ## Features
 
@@ -25,23 +25,29 @@ The Cold Email Generator is a Streamlit-based web application designed to assist
 
 ### Setup
 
-1. Clone the repository:
+1. It is recommended to set up a virtual environment to manage dependencies:
+
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
+2. Clone the repository:
 
    ```bash
    git clone <repository-url>
    cd cold-email-generator
    ```
-2. Install dependencies:
+3. Install dependencies:
 
    ```bash
    pip install -r requirements.txt
    ```
-3. Set up your `.env` file with your Groq API key:
+4. Set up your `.env` file with your Groq API key:
 
    ```
    GROQ_API_KEY=your_api_key_here
    ```
-4. Ensure the `sample_portfolio.csv` file is in the project directory.
+5. Ensure the `sample_portfolio.csv` file is in the project directory.
 
 ## Usage
 
@@ -62,9 +68,12 @@ The Cold Email Generator is a Streamlit-based web application designed to assist
 - `utils.py`: Utility functions for text cleaning.
 - `ui_styles.py`: Custom CSS styles for the Streamlit UI.
 - `sample_portfolio.csv`: Sample portfolio data with skills and project URLs.
+- `testing/`: Directory for test files.
+- `vectorstore/`, `vectorstore2/`: Directories for vector store data.
+- `.gitignore`: Git ignore file.
+- `.pypile`, `.pypilelock`: Build and lock files for project management.
+- `README.md`: Project documentation.
 
 ## Contributing
 
 Contributions are welcome! Please fork the repository and submit pull requests for any enhancements or bug fixes.
-
-## 
