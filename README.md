@@ -69,8 +69,7 @@ The Cold Email Generator is a Streamlit-based web application designed to assist
 - `ui_styles.py`: Custom CSS styles for the Streamlit UI.
 - `sample_portfolio.csv`: Sample portfolio data with skills and project URLs.
 - `testing/`: Directory for test files.
-- `vectorstore/`, `vectorstore2/`: Directories for vector store data.
-- `.gitignore`: Git ignore file.
+- `vectorstore/`: Directory for vector store data.
 - `.pypile`, `.pypilelock`: Build and lock files for project management.
 - `README.md`: Project documentation.
 
